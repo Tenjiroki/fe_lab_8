@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Автосервіс</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="images/logo.png" alt="Логотип Автосервісу" style="height: 80px; width: auto;">
+            </div>
+            <ul class="menu">
+                <li><a href="#home">Головна</a></li>
+                <li class="dropdown">
+                    <a href="#">Послуги</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#oil-change">Заміна оливи</a></li>
+                        <li><a href="#batteries">Акумулятори</a></li>
+                        <li><a href="#tow-truck">Евакуатор</a></li>
+                        <li><a href="#engine-repair">Ремонт двигуна</a></li>
+                        <li><a href="#maintenance">Обслуговування авто</a></li>
+                    </ul>
+                </li>
+                <li><a href="#about">Про нас</a></li>
+                <li><a href="#appointment">Запис</a></li>
+            </ul>
+        </nav>
+        <section class="hero">
+            <h1>Зробіть ваш автомобіль довговічним</h1>
+            <a href="#appointment" class="cta-button">Записатись на прийом</a>
+        </section>
+    </header>
+
+    <section id="services">
+        <h2>Наші послуги</h2>
+        <div class="service-card-row">
+            <div class="service-card">
+                <img src="images/oil change.png" alt="Заміна оливи">
+                <h3>Заміна оливи</h3>
+                <p>Професійна заміна оливи для вашого автомобіля.</p>
+            </div>
+            <div class="service-card">
+                <img src="images/battery change.png" alt="Акумулятори">
+                <h3>Акумулятори</h3>
+                <p>Пропонуємо заміну та перевірку акумуляторів.</p>
+            </div>
+            <div class="service-card">
+                <img src="images/tow truck.jpg" alt="Евакуатор">
+                <h3>Евакуатор</h3>
+                <p>Швидке та надійне буксирування вашого авто.</p>
+            </div>
+        </div>
+        <div class="service-card-row">
+            <div class="service-card">
+                <img src="images/engine swap.jpg" alt="Ремонт двигуна">
+                <h3>Ремонт двигуна</h3>
+                <p>Діагностика та ремонт двигунів будь-якої складності.</p>
+            </div>
+            <div class="service-card">
+                <img src="images/service.jpg" alt="Обслуговування авто">
+                <h3>Обслуговування авто</h3>
+                <p>Комплексне технічне обслуговування вашого автомобіля.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="achievements" style="background-color: #333; color: #E65C00; padding: 40px;">
+        <h2 style="text-align: center;">Досягнення</h2>
+        <div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
+            <div style="text-align: center;">
+                <h3 style="font-size: 48px; margin: 0;">15,000+</h3>
+                <p style="font-size: 16px; margin: 5px 0;">Клієнтів обслуговано</p>
+            </div>
+            <div style="text-align: center;">
+                <h3 style="font-size: 48px; margin: 0;">45+</h3>
+                <p style="font-size: 16px; margin: 5px 0;">Років досвіду</p>
+            </div>
+            <div style="text-align: center;">
+                <h3 style="font-size: 48px; margin: 0;">50,000+</h3>
+                <p style="font-size: 16px; margin: 5px 0;">Послуг надано</p>
+            </div>
+        </div>
+    </section>
+    
+    
+
+    <section id="about">
+        <h2>Про нас</h2>
+        <div class="about-container" style="display: flex; align-items: center; gap: 20px; flex-wrap: wrap;">
+            <div class="about-text" style="flex: 1;">
+                <p>
+                    Ми більше ніж 45 років допомагаємо нашим клієнтам обслуговувати та ремонтувати їх автомобілі.
+                    Наша команда професіоналів гарантує високу якість робіт та надійність. Ми пишаємося нашим досвідом
+                    і постійно прагнемо до досконалості у кожній деталі.
+                </p>
+                <p>
+                    Завдяки нашим інноваційним підходам та індивідуальному підходу до кожного клієнта, ми забезпечуємо
+                    найкращі результати. Довірте нам свій автомобіль і відчуйте різницю.
+                </p>
+            </div>
+            <div class="about-image" style="flex: 1; text-align: center;">
+                <img src="images/about us.jpg" alt="Про нас" class="about-us-image">
+            </div>
+        </div>
+    </section>
+    
+    
+
+    <section id="testimonials">
+        <h2>Відгуки клієнтів</h2>
+        <div class="testimonials-grid">
+            <div class="testimonial-box">
+                <p>Неймовірний сервіс! Дуже професійно!</p>
+                <h4>Іван Петров</h4>
+            </div>
+            <div class="testimonial-box">
+                <p>Дякую за швидке обслуговування!</p>
+                <h4>Олена Шевченко</h4>
+            </div>
+            <div class="testimonial-box">
+                <p>Все було на найвищому рівні!</p>
+                <h4>Марія Коваленко</h4>
+            </div>
+        </div>
+    </section>
+
+    <section id="appointment">
+        <h2>Запишіться на прийом</h2>
+        <div class="appointment-container" style="display: flex; align-items: center; gap: 20px; flex-wrap: wrap;">
+            <div class="appointment-image" style="flex: 1; text-align: center;">
+                <img src="images/mechanic.png" alt="Механік" style="max-width: 100%; border-radius: 10px;">
+            </div>
+            <div class="appointment-form" style="flex: 1;">
+                <form id="appointment-form">
+                    <label for="service">Обрати послугу</label>
+                    <select id="service" name="service" required>
+                        <option value="oil-change">Заміна оливи</option>
+                        <option value="batteries">Акумулятори</option>
+                        <option value="tow-truck">Евакуатор</option>
+                        <option value="engine-repair">Ремонт двигуна</option>
+                        <option value="maintenance">Обслуговування авто</option>
+                    </select>
+    
+                    <label for="vehicle-number">Номер автомобіля</label>
+                    <input type="text" id="vehicle-number" name="vehicle-number" placeholder="Введіть номер автомобіля" required>
+    
+                    <label for="date">Дата</label>
+                    <input type="date" id="date" name="date" required>
+    
+                    <label for="time">Час</label>
+                    <input type="time" id="time" name="time" required>
+    
+                    <label for="message">Повідомлення (необов'язково)</label>
+                    <textarea id="message" name="message" placeholder="Додаткові коментарі"></textarea>
+    
+                    <button type="submit">Надіслати</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+
+    <footer>
+        <div class="footer-links">
+            <a href="#home">Головна</a>
+            <a href="#services">Послуги</a>
+            <a href="#about">Про нас</a>
+            <a href="#contact">Контакти</a>
+        </div>
+        <div class="contact-info">
+            <p>+380 50 123 4567 | info@autoservice.ua</p>
+        </div>
+        <p>&copy; 2024 Автосервіс</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
